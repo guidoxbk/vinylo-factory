@@ -1,1 +1,85 @@
-ECHO est  activado.
+
+        body,
+        button {
+            font-family: 'Yanone Kaffeesatz', sans-serif;
+        }
+
+        #first-nav{
+            text-align: right;
+            padding: 12px;
+            background-color: silver;
+        }
+
+        #second-nav img{
+            height: 50px;
+        }
+
+        #banner {
+            text-align: center;
+            /* padding: 80px; */
+            /* background: rgb(124, 78, 78); */
+            background-image: url(https://placeimg.com/1000/300/tech);
+            color: red;
+        }
+
+        #banner h1 {
+            font-size: 80px;
+         }
+ 
+
+        #banner button{
+            padding: 12px 24px;
+            border: 5px solid white;
+            border-radius: 3px;
+           
+        }
+
+        #banner h1,
+        #banner button{
+            margin: 12px;
+           
+
+        }
+
+
+        #items {
+            display: flex;
+            justify-content: space-evenly;
+            padding:48px;
+            flex-wrap: wrap;
+        }
+
+        #items div{
+            
+            width: 22%;
+            border: 1px solid gray;
+            text-align: center;
+            margin: 12px auto;
+            
+                }
+
+        #items div img{
+           
+            width: 100%;
+            }
+
+        #items div p{
+            margin: 12px;
+            line-height: 22px;
+        }
+       
+        .paginacion{
+            background:silver;
+            padding: 12px 24px;
+        }
+
+        .paginacion:hover{
+                font-weight: bold;
+                box-shadow: grey 3px 3px 6px;
+        }
+
+        #footer{
+            height: 200px;
+            background-color: silver;
+        }
+        
